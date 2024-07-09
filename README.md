@@ -1,42 +1,42 @@
-# icmp-go
+# pingo
 
 # Overview
 
-`icmp-go` is a Tool written in [Go](https://go.dev/) for sending data over the network using the ICMP protocol.\
+`pingo` is a Tool written in [Go](https://go.dev/) for sending data over the network using the ICMP protocol.\
 It supports IPv4 and IPv6.
 
 # Installation
 
-[Download](https://github.com/Aftab700/icmp-go/releases/latest) prebuilt ready-to-run binary from the [releases page](https://github.com/Aftab700/icmp-go/releases/latest) or install using GO.
+[Download](https://github.com/Aftab700/pingo/releases/latest) prebuilt ready-to-run binary from the [releases page](https://github.com/Aftab700/pingo/releases/latest) or install using GO.
 
 ## Build from source
 
-Prerequisites to build `icmp-go` from source:
+Prerequisites to build `pingo` from source:
 
 - Go 1.20 or later
 
 Run the following command to install the command-line tool:
 ```
-go install github.com/aftab700/icmp-go@latest
+go install github.com/aftab700/pingo@latest
 ```
 
 or run the following commands to build from repo:
 ```
-git clone https://github.com/Aftab700/icmp-go.git
-cd icmp-go
+git clone https://github.com/Aftab700/pingo.git
+cd pingo
 go build
 ```
 
 # Usage
 
 ```
-icmp-go -h
+pingo -h
 ```
 
 This will display help for the tool. Here are all the switches it supports.
 ```
 Usage:
-  ./icmp-go [flags]
+  ./pingo [flags]
 
 Flags:
   -h    Print help
@@ -61,23 +61,23 @@ Flags:
 
 Listen for incomming packates:
 ```
-$ icmp-go -l
+$ pingo -l
 ```
 Send data:
 ```
-$ icmp-go -t 127.0.0.1 -m 'Hello There'
+$ pingo -t 127.0.0.1 -m 'Hello There'
 ```
 
 Output of the listener:
 ```
-$ icmp-go -l
+$ pingo -l
 Listening Using IPv4 Packet Connection...
 Received Data: Hello There
 ```
 
 Output of the sender:
 ```
-$ icmp-go -t 127.0.0.1 -m 'Hello There'
+$ pingo -t 127.0.0.1 -m 'Hello There'
 Sending Using IPv4 Packet Connection...
 Message sent.
 ```
@@ -89,4 +89,4 @@ Message sent.
 
 # License
 
-ffuf is released under MIT license. See [LICENSE](https://github.com/Aftab700/icmp-go/blob/main/LICENSE).
+ffuf is released under MIT license. See [LICENSE](https://github.com/Aftab700/pingo/blob/main/LICENSE).
