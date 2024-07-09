@@ -1,4 +1,4 @@
-# pingo
+# ping Go
 
 # Overview
 
