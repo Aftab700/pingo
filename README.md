@@ -86,6 +86,11 @@ Sending Using IPv4 Packet Connection...
 Message sent.
 ```
 
+### Video demo:
+
+https://github.com/Aftab700/pingo/assets/79740895/9aceb324-1718-4c52-8b45-88627418017d
+
+
 # Todo
 - Add the option for sending the file and save the output to a file.
 - Add an interactive chat feature.
