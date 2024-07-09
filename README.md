@@ -7,6 +7,8 @@ It supports IPv4 and IPv6.
 
 # Installation
 
+## Download binary
+
 [Download](https://github.com/Aftab700/pingo/releases/latest) prebuilt ready-to-run binary from the [releases page](https://github.com/Aftab700/pingo/releases/latest) or install using GO.
 
 ## Build from source
@@ -28,6 +30,8 @@ go build
 ```
 
 # Usage
+
+## Help flag
 
 ```
 pingo -h
