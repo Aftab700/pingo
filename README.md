@@ -99,3 +99,6 @@ https://github.com/Aftab700/pingo/assets/79740895/9aceb324-1718-4c52-8b45-886274
 # License
 
 ffuf is released under MIT license. See [LICENSE](https://github.com/Aftab700/pingo/blob/main/LICENSE).
+
+----
+<!-- GitAds-Verify: Z7TG7XOC85R9TM1QH979T4VLKJ5SUQA4 -->
